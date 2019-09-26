@@ -18,6 +18,9 @@ bgColor:"#0a2345",
 
 var swiper = new Swiper('.swiper-container', {
 	slidesPerView: 'auto',
+    autoplay: {
+        delay: 3000,
+    },
 
       pagination: {
         el: '.swiper-pagination',
