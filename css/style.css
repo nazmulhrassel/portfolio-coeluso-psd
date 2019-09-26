@@ -18,6 +18,9 @@ body{
     background: #fff;
 }
 
+.powerRellax{
+    transition: transform 10s cubic-bezier(0,1,.5,1);
+}
 .rellax{
     transition: transform 10s cubic-bezier(0,1,.5,1);
 }
@@ -111,13 +114,13 @@ background-position: center;
     background-color: #0a2345;
     padding:    100px 0;
 }
-.headphones-section img{
+/*.headphones-section img{
     transition: 2s;
-}
+}*/
 
-.headphones-section img:hover{
+/*.headphones-section img:hover{
     transform: rotateX(180deg);
-}
+}*/
 
 .headphones-content{
     margin: 0 75px 0px 50px;
@@ -148,12 +151,12 @@ background-position: center;
     font-weight: 500;
     transition: .4s;
 }
-.headphones-content a:hover{   
+/*.headphones-content a:hover{   
     
     background: #FF3334;
     color: #fff;
     border: 1px solid #FF3334;
-   }
+   }*/
 
 
 /*:::::::  Features Section::::::*/
@@ -266,7 +269,7 @@ padding-bottom: 100px;
     color: #e3e5e861;
 }
 
-.discover-img a{
+.discover-section .download  a{
     text-decoration: none;
     font-size: 14px;
     border: 1px solid #2a5da3;
@@ -276,13 +279,16 @@ padding-bottom: 100px;
     font-weight: 500;
     transition: .4s;
 }
-.discover-img a:hover{   
+.discover-section .download a:hover{   
     
     background: #FF3334;
     color: #fff;
     border: 1px solid #FF3334;
    }
-.discover-img{}
+.discover-img {
+    max-width: 75%;
+    margin: auto;
+}
 .discover-img img{
     padding-bottom: 20px;
 }
