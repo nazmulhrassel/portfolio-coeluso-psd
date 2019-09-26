@@ -86,7 +86,7 @@
 }
 .headphones-section img {
     max-width: 90%;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 .headphones-section:hover img {
     transform: none;
@@ -129,6 +129,10 @@
     text-align: center;
 }
 
+.rellax{
+    transition: transform 0s cubic-bezier(0,0,0,0);
+}
+
 
 }
 
@@ -161,9 +165,11 @@
 .features-section .shadow-mobile:hover img {
     transform: none;
 }
-
-.rellax{
-    transition: transform 0s cubic-bezier(0,0,0,0);
+.power-content {
+    margin-left: 30px;
+    margin-top: 50%;
+    max-width: 90%;
+    padding-bottom: 40px;
 }
 
 
