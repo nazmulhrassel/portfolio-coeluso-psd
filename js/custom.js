@@ -31,4 +31,17 @@ var swiper = new Swiper('.swiper-container', {
 
 var rellax = new Rellax('.rellax', {center: true});
 
+
+//Simple-Parallax
+
+var images = document.getElementsByClassName('simple-parallax');
+	var para = new simpleParallax(images,{
+
+    delay: .6,
+    orientation:'right',
+    scale:'1.2',
+    transition:'cubic-bezier(0,0,0,1)',
+    overflow:true,
+    });
+
 })
