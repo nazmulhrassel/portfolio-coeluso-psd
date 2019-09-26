@@ -156,11 +156,11 @@
 
 .shadow-mobile {
     position: absolute;
-    top: 83%;
+    top: 86%;
     left: 17%;
 }
 .shadow-mobile img {
-    max-width: 350px;
+    max-width: 300px;
 }
 .features-section .shadow-mobile:hover img {
     transform: none;
@@ -172,5 +172,17 @@
     padding-bottom: 40px;
 }
 
+
+}
+@media (max-width: 420px){
+
+.shadow-mobile {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+.shadow-mobile img {
+    max-width: 300px;
+}
 
 }
