@@ -76,7 +76,16 @@
 }
 @media (max-width: 767.5px){
 
-		.features-box {
+
+.navbar div ul li a {
+    font-size: 12px;
+}
+.navbar div ul li a:hover{
+   
+    color: #F3333A !important;
+}
+
+.features-box {
     padding-bottom: 40px;
     max-width: 100%;
 }
@@ -183,5 +192,7 @@
 .power-section {
     padding-top: 50px;
 }
+
+
 
 }
